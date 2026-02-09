@@ -1,0 +1,7 @@
+__mocks__
+__tests__
+.eslintrc.js
+babel.config.js
+tsconfig.json
+example/
+.github/

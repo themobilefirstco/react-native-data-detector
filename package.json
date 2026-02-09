@@ -1,0 +1,50 @@
+{
+  "name": "react-native-data-detector",
+  "version": "0.1.0",
+  "description": "Cross-platform text data detection for React Native. Uses NSDataDetector on iOS and ML Kit Entity Extraction on Android to detect phone numbers, URLs, emails, dates, and addresses.",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "data-detector",
+    "nsdatadetector",
+    "mlkit",
+    "entity-extraction",
+    "phone-number",
+    "url",
+    "email",
+    "address",
+    "date"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pablogdcr/react-native-data-detector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pablogdcr/react-native-data-detector/issues"
+  },
+  "author": "pablogdcr",
+  "license": "MIT",
+  "homepage": "https://github.com/pablogdcr/react-native-data-detector#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "expo-module-scripts": "^4.0.0",
+    "expo-modules-core": "^2.0.0",
+    "typescript": "^5.3.0"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}

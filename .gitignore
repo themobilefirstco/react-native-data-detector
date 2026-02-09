@@ -1,0 +1,21 @@
+# Build
+build/
+
+# Dependencies
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Example
+example/
+
+# CocoaPods
+ios/Pods/
