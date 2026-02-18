@@ -3,7 +3,7 @@
 Cross-platform text data detection for React Native. Uses **NSDataDetector** on iOS and **ML Kit Entity Extraction** on Android to detect phone numbers, URLs, emails, dates, and addresses — returning structured results to JavaScript.
 
 <p align="center">
-  <img src="data-collector.png" alt="Data Detector Example" width="300" />
+  <img src="data-collector.png" alt="Data Detector Example" width="500" />
 </p>
 
 ## Features
