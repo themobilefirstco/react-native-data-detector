@@ -5,3 +5,4 @@ babel.config.js
 tsconfig.json
 example/
 .github/
+.claude/
