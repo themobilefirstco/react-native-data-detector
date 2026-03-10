@@ -1,0 +1,86 @@
+name: Bug Report
+description: Report a bug in react-native-data-detector
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear and concise description of the bug.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction Steps
+      description: Steps to reproduce the behavior. Include the input text passed to `detect()`.
+      placeholder: |
+        1. Call `detect('...')` with the following text: ...
+        2. Pass these options: ...
+        3. Observe the output: ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What you expected to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happened.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - iOS
+        - Android
+        - Both
+    validations:
+      required: true
+
+  - type: input
+    id: library-version
+    attributes:
+      label: Library Version
+      placeholder: "0.1.0"
+    validations:
+      required: true
+
+  - type: input
+    id: react-native-version
+    attributes:
+      label: React Native Version
+      placeholder: "0.76.0"
+    validations:
+      required: true
+
+  - type: input
+    id: expo-sdk-version
+    attributes:
+      label: Expo SDK Version
+      placeholder: "52"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction-repo
+    attributes:
+      label: Minimal Reproducible Example
+      description: A link to a repository or Snack that reproduces the issue.
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Any other context, screenshots, or logs.
