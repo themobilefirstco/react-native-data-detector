@@ -3,7 +3,6 @@ build/
 
 # Dependencies
 node_modules/
-package-lock.json
 
 # IDE
 .idea/
@@ -17,3 +16,6 @@ Thumbs.db
 
 # CocoaPods
 ios/Pods/
+
+# Android
+.gradle/
