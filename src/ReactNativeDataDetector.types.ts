@@ -1,12 +1,7 @@
 /**
  * The type of entity detected in the text.
  */
-export type DetectionType =
-  | 'phoneNumber'
-  | 'link'
-  | 'email'
-  | 'address'
-  | 'date';
+export type DetectionType = 'phoneNumber' | 'link' | 'email' | 'address' | 'date';
 
 /**
  * A single detected entity within the text.

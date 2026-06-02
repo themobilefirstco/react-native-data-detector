@@ -1,0 +1,12 @@
+build/
+node_modules/
+package-lock.json
+
+ios/build/
+ios/Pods/
+
+example/node_modules/
+example/ios/build/
+example/ios/Pods/
+example/android/build/
+example/android/app/build/
