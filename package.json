@@ -1,6 +1,6 @@
 {
   "name": "react-native-data-detector",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Cross-platform text data detection for React Native. Uses NSDataDetector on iOS and ML Kit Entity Extraction on Android to detect phone numbers, URLs, emails, dates, and addresses.",
   "keywords": [
     "react-native",
@@ -28,6 +28,15 @@
   "type": "commonjs",
   "main": "build/index.js",
   "types": "build/index.d.ts",
+  "files": [
+    "src",
+    "build",
+    "android",
+    "ios",
+    "expo-module.config.json",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "expo-module build",
     "clean": "expo-module clean",
