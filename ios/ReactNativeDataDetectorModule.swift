@@ -87,8 +87,9 @@ public class ReactNativeDataDetectorModule: Module {
           continue
         }
 
-        let start = text.distance(from: text.startIndex, to: matchRange.lowerBound)
-        let end = text.distance(from: text.startIndex, to: matchRange.upperBound)
+        // Return UTF-16 offsets so indices align with JavaScript strings (and Android's ML Kit char offsets).
+        let start = match.range.location
+        let end = match.range.location + match.range.length
 
         results.append([
           "type": type,

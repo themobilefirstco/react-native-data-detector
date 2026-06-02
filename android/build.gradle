@@ -1,8 +1,12 @@
 apply plugin: 'com.android.library'
 apply plugin: 'org.jetbrains.kotlin.android'
 
+import groovy.json.JsonSlurper
+
+def packageJson = new JsonSlurper().parseText(file('../package.json').text)
+
 group = 'expo.modules.datadetector'
-version = '0.1.0'
+version = packageJson.version
 
 android {
   namespace 'expo.modules.datadetector'
